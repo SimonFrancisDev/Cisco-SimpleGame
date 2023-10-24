@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: yellowgreen;
+   }
+
+   .timer-grid {
+    display: grid;
+    grid-template-columns: column;
+    column-gap: 100px;
+    width: 500px;
+    height: 700px;
+    border: 5px dashed goldenrod;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+   }
+
+   .start-button-div {
+    margin-top: -70px;
+    margin-left: 130px;
+   }
+
+   .start-button {
+    background-color: darkgoldenrod;
+    color: yellowgreen;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 100%;
+    transition: color 2s;
+    
+   }
+   .start-button:hover,
+   .reset-button:hover {
+    color: red;
+    transform: rotate(45deg);
+   }
+
+   .timer-button-div {
+    border: 2px dotted goldenrod;
+    height: 80px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 100%;
+   }
+
+  @keyframes color {
+    0% {color: yellowgreen}
+    25% {color:blue}
+    50% {color: indigo}
+    75% {color: goldenrod}
+    100% {color: red}
+  }
+
+  @keyframes text {
+    0% {color: yellowgreen}
+    25% {color:blue}
+    50% {color: indigo}
+    75% {color: goldenrod}
+    100% {color: red}
+  }
+   .timer {
+    font-size: 30px;
+    color: yellowgreen;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+   .reset-button-div {
+    margin-left: 130px;
+   }
+   .reset-button {
+    background-color: darkgoldenrod;
+    color: yellowgreen;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 100%;
+    transition: color 2s
+
+   }
+
+   .cisco {
+    color: yellowgreen;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+

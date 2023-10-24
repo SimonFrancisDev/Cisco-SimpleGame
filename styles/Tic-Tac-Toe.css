@@ -1,0 +1,56 @@
+table {
+    border: 5px solid red;
+    height: 500px;
+    width: 500px;
+    border-collapse: collapse;
+    background-color: black;
+  }
+  
+  td {
+    border: 1px solid blue; 
+    text-align: center;
+    color: yellowgreen
+  }
+  
+  th {
+    border: 1px solid yellowgreen;
+    color: goldenrod;
+    font-size: 25px;
+    height: 15%;
+    
+  }
+  
+  .table-div {
+    position: relative;
+  }
+  
+  .strike {
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 1px;
+  } 
+  
+  .strike-row-1 {
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 1px;
+    top: 144.7px;
+    left: 0px;
+    right: 0px;
+    bottom: -30px;
+  }
+   
+  
+  .strike-row-2 {
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 1px;
+    top: 280px;
+    left: 0px;
+    right: 0px;
+    bottom: -30px;
+  }
+  

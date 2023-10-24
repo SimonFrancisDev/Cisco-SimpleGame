@@ -1,0 +1,71 @@
+body {
+    display: grid;
+    grid-template-columns: 100px;
+    vertical-align: center;
+    justify-content: center;
+  }
+  
+  .stopWatch-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border: 5px solid darkgoldenrod;
+    color: darkgoldenrod;
+    width: 500px;
+    height: 700px;
+    margin-left: -180px;
+    border-radius: 20px;
+  
+  }
+  
+  .start {
+    display: inline;
+  }
+  
+  .pause {
+    display: inline;
+  }
+  
+  .reset {
+    display: inline;
+  }
+  
+  
+  .circle {
+    color: currentColor;
+    margin-top: -70px;
+    border: 3px dotted goldenrod;
+    padding: 70px;
+    border-radius: 500px;
+  }
+  
+  .time {
+    font-size: 30px;
+    
+  }
+  
+  .buttonElems {
+    margin-bottom: 100px;
+  }
+  
+  .start,
+  .pause, 
+  .reset {
+    color: black;
+    background-color: goldenrod;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+  
+  }
+  
+  
+  .info {
+    transform: translate(upperCase);
+    transition: 2s,'transform';
+  }
+  
+  
